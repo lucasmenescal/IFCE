@@ -18,7 +18,7 @@ plt.plot(range(1, 11), wcss)
 plt.title('Elbow Method')
 plt.xlabel('Number of clusters')
 plt.ylabel('WCSS')
-#plt.show()
+plt.show()
 
 #Executando
 kmeans = KMeans(n_clusters=int(input("Digite o numero de clusters: ")), init='k-means++', max_iter=300, n_init=10, random_state=0)
