@@ -40,7 +40,5 @@ valorapagar=float(input("Informe o valor da sua conta: "))
 resultado = valorapagar*((gorjeta_simulador.output['gorjeta'])/100)+valorapagar
 print("Porcentagem da Gorjeta é: ", round(gorjeta_simulador.output['gorjeta'],2 ),"%")
 print("O total da sua conta é: R$", round(resultado,2))
-comida.view(sim=gorjeta_simulador)
-servico.view(sim=gorjeta_simulador)
-gorjeta.view(sim=gorjeta_simulador)
+
 
